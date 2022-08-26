@@ -8,7 +8,7 @@ const addAngka = () => {
   return (
     <div className='card'>
     <p className='angka'>{angka}</p>
-    <button className="angka" onClick={addAngka}>Tambah</button>
+    <button onClick={addAngka}>Tambah</button>
     {angka >= 10 ? "stateCount anda sudah melampui angka 10": ""}
     </div>
   )
