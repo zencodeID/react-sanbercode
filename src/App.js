@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Tugas7 from './components/tugas7/Tugas7';
+import Tugas8 from './components/tugas8/Tugas8';
+import "./App.css"
 
-function App() {
+function App (props) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container'>
+    <Tugas7/>
+    <Tugas8 name="sarah" email="subkh4n@gmail.com" batch="32"/> 
     </div>
-  );
+  )
 }
 
 export default App;
