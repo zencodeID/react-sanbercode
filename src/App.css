@@ -1,18 +1,18 @@
-*{
+* {
   box-sizing: border-box;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 30px;
 }
-.card{
+.card {
   border: 1px solid black;
   width: 800px;
   box-shadow: 2px 4px 10px rgb(202, 199, 199);
@@ -20,8 +20,9 @@
   border-radius: 20px;
   margin-bottom: 20px;
 }
-h1,p{
-  padding:10px;
+h1,
+p {
+  padding: 10px;
 }
 
 ul li {
@@ -29,12 +30,15 @@ ul li {
   padding-top: 10px;
 }
 
-.card > .angka{
+.card > .angka {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.angka button{
-  justify-content: center;
-  align-items: center;
+button {
+  width: 100%;
+}
+
+.table-container {
+  width: 800px;
 }

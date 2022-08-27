@@ -4,6 +4,7 @@ import Tugas8 from './components/tugas8/Tugas8';
 import "./App.css"
 // import Contohstate from './components/Contohstate';
 import Tugas9 from './components/tugas9/Tugas9';
+import Tugas10 from './components/tugas10/Tugas10';
 
 function App (props) {
   return (
@@ -12,6 +13,7 @@ function App (props) {
     <Tugas8 name="sarah" email="subkh4n@gmail.com" batch="32"/> 
     {/* <Contohstate/> */}
     <Tugas9/>
+    <Tugas10/>
     </div>
   )
 }
